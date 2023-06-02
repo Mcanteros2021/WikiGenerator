@@ -4,9 +4,9 @@ Article generator with Google sheets API and OpenAI API
 
 # How to configure it  
 
-1. Configure de env config file so you put your excel ID in the variable EXCEL_ID For example if you open your excel file on google drive and you have this url https://docs.google.com/spreadsheets/d/1hLDlENMuyH2bwlNzPkC6O7ypHYVJoQVAUBPf25yKAbU/edit#gid=0 You should take this part 1hLDlENMuyH2bwlNzPkC6O7ypHYVJoQVAUBPf25yKAbU that is what is going to be your file ID.
-2. Give edit permisions to this google account googlesheets@triple-visitor-388407.iam.gserviceaccount.com so it can edit the file in google drive
-3. Make sure that you have the right structure in the excel file: 
+1. Configure de env config file so you put your excel ID in the variable EXCEL_ID For example if you open your excel file on google drive and you have this url https://docs.google.com/spreadsheets/d/1hLDlENMuyH2bwlNzPkC6O7ypHYVJoQVAUBPf25yKAbU/edit#gid=0 You should take this part 1hLDlENMuyH2bwlNzPkC6O7ypHYVJoQVAUBPf25yKAbU that is what is going to be your file ID.You have to also configure the variable SHEET so you specify the sheet name.
+3. Give edit permisions to this google account googlesheets@triple-visitor-388407.iam.gserviceaccount.com so it can edit the file in google drive
+4. Make sure that you have the right structure in the excel file: 
 
 ![image](https://github.com/Mcanteros2021/WikiGenerator/assets/90841463/3ea9375d-23a7-4771-8e94-a44c9a9bb1c7)
 
